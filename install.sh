@@ -31,7 +31,7 @@ apt install -y curl jq bc
 
 # Download the script directly
 echo -e "${YELLOW}[*] Downloading Termux AI Assistant...${NC}"
-curl -s -o $PREFIX/bin/termux-ai \
+curl -s -Lo $PREFIX/bin/termux-ai \
     https://github.com/Anon4You/Termux-Ai/raw/main/termux-ai.sh
 
 # Make script executable
