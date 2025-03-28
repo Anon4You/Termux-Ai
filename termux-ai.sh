@@ -186,7 +186,7 @@ init() {
 # Model selection menu (unchanged UI)
 model_selection_menu() {
     echo -e "${MAGENTA}╭──────────────────────────────────────╮${NC}"
-    echo -e "${MAGENTA}│${NC}${WHITE}        Available Free Models${NC}           ${MAGENTA}│${NC}"
+    echo -e "${MAGENTA}│${NC}${WHITE}        Available Free Models${NC}         ${MAGENTA}│${NC}"
     echo -e "${MAGENTA}╰──────────────────────────────────────╯${NC}"
     
     local i=1
