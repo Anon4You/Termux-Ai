@@ -25,7 +25,7 @@ pkg install termux-ai
 
 ### Direct Install (One-Command)
 ```bash
-curl -sL https://is.gd/termuxai | bash
+curl -sL https://is.gd/Termux_Ai | bash
 ```
 
 > **Note**: Repository installation enables automatic updates via `pkg upgrade`
