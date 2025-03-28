@@ -116,7 +116,7 @@ validate_max_tokens() {
 print_header() {
     clear
     echo -e "${BLUE}╭──────────────────────────────────────╮${NC}"
-    echo -e "${BLUE}│${NC}${WHITE}      Termux AI Assistant ${GRAY}v$VERSION${NC}     ${BLUE}│${NC}"
+    echo -e "${BLUE}│${NC}${WHITE}      Termux AI Assistant ${GRAY}v$VERSION${NC}        ${BLUE}│${NC}"
     echo -e "${BLUE}╰──────────────────────────────────────╯${NC}"
     echo -e "${GRAY}Author: Alienkrishn   GitHub: GitHub.com/Anon4You${NC}\n"
 }
@@ -131,7 +131,7 @@ print_menu() {
 
 print_settings_header() {
     echo -e "${MAGENTA}╭──────────────────────────────────────╮${NC}"
-    echo -e "${MAGENTA}│${NC}${WHITE}        AI Assistant Settings${NC}           ${MAGENTA}│${NC}"
+    echo -e "${MAGENTA}│${NC}${WHITE}        AI Assistant Settings${NC}         ${MAGENTA}│${NC}"
     echo -e "${MAGENTA}╰──────────────────────────────────────╯${NC}"
 }
 
