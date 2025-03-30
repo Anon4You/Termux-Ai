@@ -70,6 +70,7 @@ cat ~/.config/termux_assistant/history
 ```
 
 # Export conversation
+```
 cp ~/.config/termux_assistant/history ./my_chat.txt
 ```
 
