@@ -3,7 +3,7 @@
 # Termux AI Assistant
 # Author: Alienkrishn
 # GitHub: GitHub.com/Anon4You
-# Version: 1.7
+# Version: 2.0
 
 # ANSI Color Codes
 RED='\033[1;31m'
@@ -21,7 +21,7 @@ CONFIG_DIR="$HOME/.config/termux_assistant"
 HISTORY_FILE="$CONFIG_DIR/history"
 CONFIG_FILE="$CONFIG_DIR/config"
 API_KEY_FILE="$CONFIG_DIR/api_key"
-VERSION="1.7"
+VERSION="2.0"
 
 # Available Free Models
 declare -A FREE_MODELS=(
@@ -29,6 +29,12 @@ declare -A FREE_MODELS=(
     ["qwen2.5-vl-32b"]="qwen/qwen2.5-vl-32b-instruct:free"
     ["gemma-3-27b"]="google/gemma-3-27b-it:free"
     ["mistral-small"]="mistralai/mistral-small-3.1-24b-instruct:free"
+    ["Gemini-pro2.5"]="google/gemini-2.5-pro-exp-03-25:free"
+    ["meta-llama"]="meta-llama/llama-3.1-8b-instruct:free"
+    ["Qwerky 72b"]="featherless/qwerky-72b:free"
+    ["Allen-Ai"]="allenai/molmo-7b-d:free"
+    ["Nous: DeepHermes"]="nousresearch/deephermes-3-llama-3-8b-preview:free"
+    ["Rogue Rose"]="sophosympatheia/rogue-rose-103b-v0.2:free"
 )
 
 # Default settings
