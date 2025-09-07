@@ -28,7 +28,7 @@ curl -sL https://is.gd/Termux_Ai | bash
 ```bash
 pkg install termux-ai
 ```
-*Repo:* `https://Anon4You.github.io/alienkrishn`
+*Repo:* [TermuxVoid Repo](https://termuxvoid.github.io/)
 
 ## 🧠 All 10 AI Models
 
