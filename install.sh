@@ -27,7 +27,7 @@ apt update -y && apt upgrade -y
 
 # Install dependencies
 echo -e "${YELLOW}[*] Installing dependencies...${NC}"
-apt install -y curl jq bc
+apt install -y tgpt gum
 
 # Download the script directly
 echo -e "${YELLOW}[*] Downloading Termux AI Assistant...${NC}"
@@ -40,16 +40,7 @@ chmod +x $PREFIX/bin/termux-ai
 
 # Create config directory
 echo -e "${YELLOW}[*] Creating config directory...${NC}"
-mkdir -p ~/.config/termux_assistant
+mkdir -p $HOME/.config/termux-ai
 
 echo -e "${GREEN}[✓] Installation complete!${NC}"
 echo -e "\nRun the AI Assistant with: ${BLUE}termux-ai${NC}"
-
-# First run instructions
-echo -e "\n${YELLOW}To configure your API key:${NC}"
-echo -e "1. Run ${BLUE}termux-ai${NC}"
-echo -e "2. Go to Settings (Option 2)"
-echo -e "3. Select 'API Key' (Option 1)"
-echo -e "4. Enter your OpenRouter API key\n"
-
-exit 0
