@@ -29,6 +29,10 @@ apt update -y && apt upgrade -y
 echo -e "${YELLOW}[*] Installing dependencies...${NC}"
 apt install -y tgpt gum
 
+# Optional: node.js is required by the deepseek-web provider (for Proof-of-Work)
+# echo -e "${YELLOW}[*] Installing node.js (for deepseek-web provider)...${NC}"
+# apt install -y nodejs
+
 # Download the script directly
 echo -e "${YELLOW}[*] Downloading Termux AI Assistant...${NC}"
 curl -s -Lo $PREFIX/bin/termux-ai \
